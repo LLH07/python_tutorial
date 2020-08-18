@@ -1,0 +1,7 @@
+如果你 pip install 某套件，但用 import 套件發生錯誤，可以用以下方法檢查套件跟 python 程式是否在同一個工作目錄。
+以 django 為例:
+
+	step 1: 檢查 django 在哪裡: pip show django
+	step 2: 檢查 python 在哪裡: import sys
+				    sys.executable
+如果路徑不一樣就無法 import 套件。
