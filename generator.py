@@ -39,4 +39,5 @@ print(my_nums3) # 印出 <generator object <genexpr> at 0x0306C930>。
     1) generator 可以讓 code 看起來易懂舒服。
     2) generator 再資料量大時可以節省許多記憶體。
     3) 要留意回傳的是 generator object。
+    4) return function() 是執行函數。return function 是回傳函數
 '''
